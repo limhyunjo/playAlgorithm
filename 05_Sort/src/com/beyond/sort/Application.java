@@ -33,5 +33,24 @@ public class Application {
         System.out.println(Arrays.toString(array));
         System.out.println();
 
+
+
+        // 병합 정렬
+        array = new int[]{ 3, 1, 5, 4, 9, 2};
+        System.out.println(Arrays.toString(array));
+        ArraySort.mergeSort(array, 0, array.length -1);
+        System.out.println(Arrays.toString(array));
+        System.out.println();
+
+        // quick 정렬
+
+        array = new int[]{ 3, 1, 5, 2, 9, 4};
+
+        System.out.println(Arrays.toString(array));
+
+        ArraySort.quickSort( array, 0, array.length-1);
+        System.out.println(Arrays.toString(array));
+        System.out.println();
+
     }
 }
