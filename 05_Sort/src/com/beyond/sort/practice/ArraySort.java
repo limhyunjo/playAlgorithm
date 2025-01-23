@@ -133,7 +133,7 @@ public class ArraySort {
     public static void quickSort(int[] array, int left, int right){
 
         if(left < right ){
-            // pivot을 정해서 오른쪽과 왽쪾으로 값을 나눔
+            // pivot을 정해서 오른쪽과 왼쪽으로 값을 나눔
             // partition이라는 메소드 생성
             
             int pivotIndex = partition(array,left, right); // 분할 
